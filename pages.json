@@ -1,0 +1,188 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+		}, {
+			"path": "pages/friend/friend",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+		}, {
+			"path": "pages/chat/chat",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+
+		},
+		{
+			"path": "pages/uview/uview",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2b85e4"
+			}
+
+		}, {
+			"path": "pages/health/health",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+
+		}, {
+			"path": "pages/submit/submit",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+
+		}
+
+		, {
+			"path": "pages/register/register",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+
+		}, {
+			"path": "pages/info/info",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+
+		}, {
+			"path": "pages/newpage/newpage",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+
+		}
+	    ,{
+            "path" : "pages/news/news",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": true,
+                "navigationStyle": "custom", // 隐藏系统导航栏
+                "navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+            }
+            
+        }
+        ,{
+            "path" : "pages/taskdetails/taskdetails",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": true,
+                "navigationStyle": "custom", // 隐藏系统导航栏
+                "navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+            }
+            
+        }
+        ,{
+            "path" : "pages/illustration/illustration",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false,
+                "navigationStyle": "custom", // 隐藏系统导航栏
+                "navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+            }
+            
+        }
+        ,{
+            "path" : "pages/mytask/mytask",
+            "style" :                                                                                    
+            {
+               "enablePullDownRefresh": true,
+               "navigationStyle": "custom", // 隐藏系统导航栏
+               "navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+            }
+            
+        }
+        ,{
+            "path" : "pages/tasksubmit/tasksubmit",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false,
+                "navigationStyle": "custom", // 隐藏系统导航栏
+                "navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+            }
+            
+        }
+        ,{
+            "path" : "pages/recipientdetails/recipientdetails",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false,
+                "navigationStyle": "custom", // 隐藏系统导航栏
+                "navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+            }
+            
+        }
+        ,{
+            "path" : "pages/contact/contact",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false,
+                "navigationStyle": "custom", // 隐藏系统导航栏
+                "navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#303133",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/news/news"
+			},
+			{
+				"pagePath": "pages/friend/friend"
+			},
+			{
+				"pagePath": "pages/submit/submit"
+			},
+			{
+				"pagePath": "pages/mytask/mytask"
+			},
+			{
+				"pagePath": "pages/my/my"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	}
+}

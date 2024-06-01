@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/friend/friend",
+    "pages/chat/chat",
+    "pages/uview/uview",
+    "pages/health/health",
+    "pages/submit/submit",
+    "pages/register/register",
+    "pages/info/info",
+    "pages/newpage/newpage",
+    "pages/news/news",
+    "pages/taskdetails/taskdetails",
+    "pages/illustration/illustration",
+    "pages/mytask/mytask",
+    "pages/tasksubmit/tasksubmit",
+    "pages/recipientdetails/recipientdetails",
+    "pages/contact/contact"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#909399",
+    "selectedColor": "#303133",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/news/news"
+      },
+      {
+        "pagePath": "pages/friend/friend"
+      },
+      {
+        "pagePath": "pages/submit/submit"
+      },
+      {
+        "pagePath": "pages/mytask/mytask"
+      },
+      {
+        "pagePath": "pages/my/my"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

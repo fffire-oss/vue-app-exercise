@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#2b85e4",
+  "usingComponents": {
+    "u-steps": "/uview-ui/components/u-steps/u-steps",
+    "u-line-progress": "/uview-ui/components/u-line-progress/u-line-progress",
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}
